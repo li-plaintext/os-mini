@@ -6,3 +6,6 @@ rm *.o
 i386-elf-grub-mkrescue -o os.iso os-image
 
 qemu-system-i386 -kernel kernel.bin
+
+
+# http://tuxdiary.com/2013/05/22/simple-kernel-in-c/
